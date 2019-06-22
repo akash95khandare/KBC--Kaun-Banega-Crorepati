@@ -9,7 +9,7 @@ public class Simple {
 
         String sname;
          int age;
-             Connection connect=DriverManager.getConnection("Jdbc:mysql://localhost:3306/kbc","root","12345");
+             Connection connect=DriverManager.getConnection("Jdbc:mysql://mysql:3306/kbc","root","12345");
      Statement statement=connect.createStatement();
      
         try{
